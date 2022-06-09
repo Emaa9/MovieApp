@@ -8,5 +8,6 @@ information on my web site. For creating the web site I used React.js, for manag
 How to start this web site:
 
 Step1. You should install node_modules with this command npm i
-Step2. To start this app you should use npm start
+
+Step2. To start this web site you should use npm start
 
