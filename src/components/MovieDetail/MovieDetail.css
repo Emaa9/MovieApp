@@ -1,0 +1,161 @@
+
+
+.section-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    padding-bottom: 15rem;
+    color: rgb(12, 10, 10);
+    font-weight: 400;
+    background:linear-gradient(to bottom, #f88e32 0%, #fdeef5 100%);
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+
+.movie-rating{
+    display: flex;
+    background-color: rgb(235, 235, 166);
+    font-size: 12px;
+    padding-left: 2rem;  
+    margin-right: 55rem; 
+    margin-left: 2rem;
+    border-radius: 1rem;
+
+}
+span{
+    margin-right: 20px;
+    
+}
+
+.movie-title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(233, 233, 244);
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    border-radius: 0.5rem;
+}
+.movie-plot{
+    line-height: 1.8rem;
+    margin-left: 20px;
+    font-size: 14px;
+    color:rgb(2, 1, 1);
+    text-align: left;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+.movie-info> div span:first-child{
+    padding-bottom: 0.2rem;
+    color: rgb(16, 16, 16);
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+    font-size: 13px;
+    
+}
+
+.movie-info>div span{
+    color: rgb(44, 44, 56);
+    font-size: 14px;
+
+}
+.movie-info{
+    border: solid;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 18rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+}
+ .img{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color:rgb(233, 233, 244);
+    float: left;
+    
+}
+
+@media only screen and (max-width: 680px){
+    .section-left{
+       
+        width: 400px;
+        height: 1050px;
+        margin:auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .img{
+        height: 13rem;
+        width: 10rem;
+        border-radius: 10px;
+        margin-right: 1rem;
+        background-color:rgb(233, 233, 244);
+        float: left;
+    }
+    .movie-rating{
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        
+    }
+    .movie-title{
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(233, 233, 244);
+        padding-left: 5rem;
+        padding-right: 3rem;
+        padding-bottom: 0;
+        margin-top: 0.1rem;
+          }
+    .movie-info{
+        border: solid;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding: 1rem;
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+   
+    .movie-plot{
+        margin-top: 1px;
+        line-height: 1.8rem;
+        margin-left: 2rem;
+        padding-right: 1rem;
+        font-size: 11px;
+        color:rgb(2, 1, 1);
+        text-align: left;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+    }
+    .movie-info> div span:first-child{
+        padding-bottom: 0.2rem;
+        color: rgb(16, 16, 16);
+        font-weight: 700;
+        width: 100px;
+        display: inline-block;
+        font-size: 14px;
+        
+    }
+    .movie-info>div span{
+        color: rgb(98, 98, 222);
+        font-size: 12px;
+    
+    }
+}
